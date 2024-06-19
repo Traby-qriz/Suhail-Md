@@ -21,12 +21,12 @@ global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md"
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ" 
+global.caption = process.env.CAPTION || global.caption || "𝐜𝐚𝐬𝐩𝐞𝐫 𝐭𝐞𝐜𝐡 𝐤𝐞𝐧𝐲𝐚" 
 
 
-global.devs = "923184474176" // Developer Contact
+global.devs = "254732982940" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254732982940";
 
 
 
@@ -53,7 +53,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "false"
+global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
@@ -76,8 +76,8 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  botname : process.env.BOT_NAME  || "🅲🅰🆂🅿🅴🆁-🄼🄳",
+  ownername:process.env.OWNER_NAME|| "its traby qriz",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -91,8 +91,8 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
 
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
+  LANG: ( process.env.THEME ||  "CASPER"  ).toUpperCase(),
 
 
 
